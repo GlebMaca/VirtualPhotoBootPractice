@@ -1,0 +1,17 @@
+.canvas {
+  grid-area: canvas;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.canvas-image-content {
+  width: 70%;
+  min-width: 300px;
+  display: none;
+}
+
+.canvas-image-content img {
+  width: 100%;
+}
